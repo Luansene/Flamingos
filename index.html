@@ -7,22 +7,74 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        .whats{
+            position: fixed; bottom: 25px; right: 25px; z-index: 9999;
+            cursor: pointer;
+            transform: rotateY('1');
+            transition-duration: 0.5s;
+        }
+    </style>
     <title>Flamingos</title>
 </head>
 <body>
     <!--TITULO PRINCIPAL E LOGO-->
     <div id="menusuperior">
-        <img id="logo" src="./Imagens/logoflamingos.svg" alt="Erro">
+        <img id="logoflamingos" src="./Imagens/logoflamingos.svg" alt="Erro">
         <div>        
             <h1 class="titulosuperior">Sejam bem vindos a Transportadora Flamingos</h1><br>
             <h3 class="titulosuperior">
                 A melhor opção para transportar o seu <br>
                 pedido, venha realizar a cotação com agente</h3><br>
             </div>
-    
     </div>
-    
+    <div id="menuinformacional">
+       <a href="./icones/empresa.docx" download="empresa.docx"> <img id="iconeempresa"  src="./icones/iconeempresa.svg" class="iconesinfomacionais" alt=""></a><p class="textoinformacional">Empresa</p> 
+       <a href="./icones/Serviços.docx" download="Serviços.docx"> <img src="./icones/iconeserviços.svg " class="iconesinfomacionais" alt=""></a><p class="textoinformacional"> Serviços</p>
+       <a href="./icones/armazenagem.docx" download="armazenagem.docx"> <img id="iconearmazem" src="./icones/iconearmazenamento.svg " class="iconesinfomacionais" alt=""></a><p class="textoinformacional">Armazenamento e Fullfillment</p>
 
+    </div>
+
+    <!--Regiões-->
+    <div id="regioes">
+        <h1 id="tituloregioes">Regiões atendidas pela Transportadora Flamingos</h1>
+        <img src="" alt="">
+        <p id="textoregioes">Arapongas/PR e região   ->   São Paulo - SP – (capital, grande SP e interior até 100KM) <br>
+            Arapongas - PR e região    ->   Rio de Janeiro - RJ (estado inteiro)<br>
+            Arapongas - PR e região    ->   Campo Grande - MS –  (Capital e região)<br>
+            São Paulo (Capital)   ->   Arapongas - PR e região<br>
+            São Paulo (Capital)   ->   Rio de Janeiro - RJ – (estado inteiro)<br> 
+            São Paulo (Capital)   ->   Campo Grande - MS –  (Capital e região)<br>
+            Campo Grande - MS   ->   Arapongas - PR e região<br>
+            Campo Grande - MS   ->   Rio de Janeiro - RJ – (estado inteiro)<br>
+            Campo Grande - MS   ->   São Paulo - SP – (capital, grande SP e interior até 100KM)<br>
+            </p>
+    </div>
+
+        <!--Bases-->
+<div id="bases">
+    <h1 id="textobases">Precisa de um parceiro de confiança? Entre em contato com o nosso time comercial!</h1>
+    <div id="divbase">
+        <p> Arapongas Pr (Matriz)<br> 
+            Endereço: Av Cardeal Goias 126<br>
+            Bairro :  Pq Industrial XI<br>
+            Cidade:  Arapongas PR<br>
+            Telefone: (43) 99699-0078 Janaine
+            </p>
+            <p> São Paulo Sp (Filial)<br>  
+                Endereço: Rua Estevão Mendonça 147<br>
+                Bairro: Vila Santa Catarina<br>
+                Cidade : São Paulo SP<br>
+                Telefone: (11) 98811-9697 Eugenio
+                </p>
+                <p> Campo Grande Ms (Filial)<br>
+                    Endereço: Rua Frei Caneca 479<br>
+                    Bairro: JD Noroeste<br>
+                    Cidade : Campo Grande MS<br>
+                    Telefone (69) 99973-5430 Wesley                    
+                </p>
+    </div>
+</div>
 </body>
 </html>
 <script src="index.js"></script>

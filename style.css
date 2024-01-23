@@ -4,21 +4,83 @@
 }
 
 #menusuperior{
-    display: grid;
-    grid-auto-flow: column;
-    columns: auto;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.932);
-
+    background-color: rgba(0, 0, 0, 0.911);
+    padding-bottom: 40px;
 }
 
-#logo{
-    margin-top: 75px;
-    margin-left: 100px;
-    margin-bottom: 20px;
+#logoflamingos{
+    position: relative; top: 10px; left: 20px; bottom: 70px;
+    margin-bottom: 50px;
+
 }
 
 .titulosuperior{
     color: aliceblue;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin-left: 220px;
+}
+
+#menuinformacional{
+    background-color: rgba(83, 83, 83, 0.87);
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding-bottom: 25px;
+}
+
+.iconesinfomacionais{
+    width: 125px;
+    position: relative;
+    top: 13px;
+    left: 65px;
+    bottom: 20px;
+}
+
+a:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+}
+
+.textoinformacional{
+    font-size: 23px;
+    text-align: center;
+    margin-top: 75px;
+    margin-right: 25px;
+    font-weight: 600;
+}
+
+#regioes{
+    background-color: rgba(130, 139, 145, 0.678);
+    text-align: center;
+    color: black;
+}
+
+#textoregioes{
+    font-size: 24px;
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+
+#tituloregioes{
+    padding-top: 75px;
+}
+
+#bases{
+    background-color: rgba(134, 133, 133, 0.418);
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 100px;
+    font-size: 20px;
+}
+
+#divbase{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    font-size: 20px;
+}
+
+#textobases{
+    padding-bottom: 70px;
 }
